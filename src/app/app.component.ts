@@ -11,6 +11,3 @@ export class AppComponent {
   sourceList: Satellite[];
 }
 
-constructor() {
-  this.sourceList = Satellite[]
-}
