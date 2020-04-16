@@ -14,7 +14,7 @@ export class Satellite {
         this.operational = operational;
    }
 
-   shouldShowWarning() {
-       return this.type == "Space Debris";
+   shouldShowWarning(): boolean{
+       return (this.type.toLowerCase() === "Space Debris".toLowerCase());
    }
 }
